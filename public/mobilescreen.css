@@ -1,0 +1,73 @@
+
+  .formobile{
+   display:block;
+  }
+  .forpc{
+   display:none;
+  }
+ h1{
+  color:red;
+ }
+
+ input{
+  display:none;
+ }
+ .absolute{
+  position:absolute;
+  top:0;
+  right:5px;
+
+ }
+ .fa-bars{
+  font-size:20px;
+  transform:scale(1.4);
+
+ }
+ .showonclick{
+  display:none;
+ }
+
+ #burger:checked +.showonclick{
+  display:block;
+
+ }
+
+ .subdiv{
+  display:none;
+ }
+ #html:checked + .subdiv{
+  display:block;
+ }
+ #css:checked + .subdiv{
+  display:block;
+ }
+
+ #javascript:checked + .subdiv{
+  display:block;
+ }
+ label{
+  display:block;
+
+  padding:10px;
+ }
+ label:hover ,.fa-bars:hover,.subdiv li a:hover{
+  color:cyan;
+  letter-spacing:2px;
+ }
+ .fa-solid{
+  position:absolute;
+  right:10vw;
+ }
+
+ .subdiv li{
+  padding:10px 0 10px 30px;
+ }
+ .subdiv li a{
+  display:block;
+ }
+ label:hover .fa-plus{
+  color:cyan;
+  
+ }
+
+

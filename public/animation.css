@@ -1,0 +1,90 @@
+header{
+  animation:mymove 1s 1;
+ }
+ h1{
+  animation:ktibamove 1s 1;
+  animation-delay: 1s;
+ }
+ 
+@keyframes ktibamove{
+
+  0%{
+    transform:translateX(-100px);
+    color:cyan;
+
+  }
+
+  50%{
+    transform:translateX(150px);
+
+  }
+  70%{
+    transform:translate(-150px);
+  }
+
+  100%{
+    transform:translate(0);
+
+  }
+
+
+}
+ 
+
+
+
+ @keyframes mymove{
+
+  0%{
+    transform:translateY(-100px);
+
+  }
+
+  100%{
+    transform:translateY(0);
+
+  }
+
+
+ }
+
+
+ .subul{
+  animation:hoverrr 1s 1;
+ }
+
+
+ @keyframes hoverrr{
+  0%{
+       opacity:0;
+  }
+
+  100%{
+     opacity:1;
+  }
+ }
+
+
+
+
+
+
+ .showonclick{
+  animation:show 2s 1;
+ }
+
+
+
+ @keyframes show{
+  0%{
+   transform:translateX(100px);
+  }
+  50%{
+    transform:translateX(-100px);
+  }
+
+  100%{
+    transform:translateX(0);
+
+  }
+ }
